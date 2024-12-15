@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going"],
+      "responses": ["Hello!", "Hey there!", "How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["see ya", "see you later", "bye", "goodbye", "have a nice day", "bye bye"],
+      "responses": ["Goodbye!", "See you soon!", "Take care and visit again!"]
+    },
+    {
+      "tag": "what",
+      "patterns": ["what do you do?", "I need help", "what is your purpose", "what can you tell me?"],
+      "responses": [
+        "I am here to answer your questions about our lovely city.",
+        "I can provide updates and information about Southampton.",
+        "I'm available 24/7 to assist with your queries."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["name", "your name", "what should I call you?", "who are you?"],
+      "responses": [
+        "I'm City Connect, your virtual assistant for Southampton.",
+        "You can call me City Connect.",
+        "I'm here to be your link to Southampton's local life."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["what can you help me with?", "what do you do?", "what's your function?"],
+      "responses": [
+        "I can assist with general queries and service requests.",
+        "I provide up-to-date information about the local area.",
+        "Need help with something in the city? Just ask me!"]
+    },
+    {
+      "tag": "history",
+      "patterns": ["Tell me the history of Southampton.", "Southampton city history.", "What is the history of the city?", "City heritage"],
+      "responses": [
+        "Southampton's history is best summarized on [Visit Southampton's history page](https://visitsouthampton.co.uk/southampton-city-history).",
+        "Please visit [Visit Southampton](https://visitsouthampton.co.uk) for the city's history.",
+        "Southampton has a long and rich history. The best place to learn about it is [Visit Southampton](https://visitsouthampton.co.uk)."]
+    },
+    {
+      "tag": "area",
+      "patterns": ["What's the local area like?", "Can you tell me more about the local area?"],
+      "responses": [
+        "Southampton is located approximately 80 miles southwest of London, near Portsmouth and the New Forest. It’s a major port city and a vibrant urban area with a mix of historical and modern attractions.",
+        "Southampton, classified as a Medium-Port City, lies at the northernmost point of Southampton Water and has a population of over 250,000 as of the 2011 census.",
+        "Southampton offers a unique blend of maritime heritage, green spaces, and proximity to the New Forest National Park."]
+    },
+    {
+      "tag": "recreation",
+      "patterns": ["Where to go in Southampton?", "Are there any recreation areas in Southampton?", "What is recreation in Southampton like?"],
+      "responses": [
+        "Southampton has numerous green spaces and 50 parks open to everyone to enjoy outdoor life. It’s also close to the New Forest National Park.",
+        "Parks like Southampton Common provide vast green areas for picnics, walks, and playtime with pets.",
+        "Southampton is great for outdoor activities, making it a family- and pet-friendly city."
+      ]
+    },
+    {
+      "tag": "trade",
+      "patterns": ["What is the biggest trade in Southampton?", "What is the major sector in Southampton?"],
+      "responses": [
+        "Southampton's biggest trade is maritime, playing a key role in the UK's supply chain and import/export industries.",
+        "The docks are a focal point of the city, and maritime trade is the major economic sector of the area."]
+    },
+    {
+      "tag": "schools",
+      "patterns": ["Are there any good schools in Southampton?", "What schools are there in Southampton?", "What are Southampton's schools?"],
+      "responses": [
+        "Southampton is home to two universities and many schools. Visit the [Southampton City Council Schools Page](https://www.southampton.gov.uk/schools-learning/find-apply-school/schools/) for details.",
+        "For a full list of schools, please visit the [Southampton Council website](https://www.southampton.gov.uk/schools-learning/find-apply-school/schools/).",
+        "35,527 pupils are attending 83 schools in Southampton in 2024/25, including 76 state-funded and 4 independent schools."]
+    },
+    {
+      "tag": "houses",
+      "patterns": ["What are prices of the properties?", "How to find houses for sale in Southampton?", "What is the property market in Southampton?"],
+      "responses": [
+        "For up-to-date average property prices in Southampton, visit [ONS Housing Prices](https://www.ons.gov.uk/visualisations/housingpriceslocal/E06000045/).",
+        "Southampton is still considered affordable compared to other major UK cities.",
+        "Websites like Rightmove or Zoopla list many properties for sale in Southampton."]
+    },
+    {
+      "tag": "tax",
+      "patterns": ["How can I pay my council tax?", "Council tax payment", "Council tax bill"],
+      "responses": [
+        "You can pay your council tax online at the [Southampton Council Tax Payment Portal](https://www.southampton.gov.uk/council-tax/).",
+        "Need help paying your council tax? Visit the [Southampton City Council Tax page](https://www.southampton.gov.uk/council-tax/)."]
+    },
+    {
+      "tag": "crime",
+      "patterns": ["What is crime ratings in Southampton?", "Is Southampton nice place to live?", "What is the most common crime in Southampton?"],
+      "responses": [
+        "Annual crime rate in Southampton postcode area is 36.1 crimes per 1000 people. Compared to the national crime rate, \nSouthampton's rate is at 103% as of December 2024. Violent crime makes up 38.1% of all crimes reported in the postcode area. To dig into all details in crime visit https://www.hampshire.police.uk/news/hampshire."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["Where to look for local news?", "What's local breaking news?", "What's up in Southampton?"],
+      "responses": [
+        "Daily Echo is the most popular UK South Coast news provider.",
+        "See the latest news on https://www.dailyecho.co.uk/news/.",
+        "News you can trust https://www.dailyecho.co.uk/news/."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["How hot does it get in Southampton in the summer?", "What is Southampton's climate?", "Is it cold in Southampton in the winter?"],
+      "responses": [
+        "Southampton is not the hottest place on the Earth. July is the hottest month in Southampton and August is close behind. Average daytime maxima are 22.4 °C and 22.3 °C respectively. Expect some heat waves in the summer too!",
+        "As with the rest of the UK, Southampton experiences an oceanic climate.",
+        "Generally Southampton has mild winters. The average minimum temperature only falls as low as 2.6 °C in February, which is the coldest month of the year. This is mainly as a result of its close proximity to the sea."]
+    },
+    {
+      "tag": "football",
+      "patterns": ["What is FC Southampton?", "What is FC Southampton Saints song?", "Is FC Southampton any good?"],
+      "responses": [
+        "Southampton Football Club is a professional football club based in Southampton, Hampshire, England. The club competes in the Premier League, the top tier of English football, after achieving promotion in the 2024 EFL Championship play-off final.",
+        "'Oh, when the saints (when the saints)\nGo marching in (marching in)\nNow, when the saints go marching in (marching in)\nYes, I want to be in that number\nWhen the saints go marching in.' Check the song by Louis Armstrong on YouTube.",
+        "Visit https://www.southamptonfc.com/en for the latest results."]
+    },
+    {
+      "tag": "airport",
+      "patterns": ["Does the city have an airport?", "Is there an airport in Southampton?"],
+      "responses": [
+        "Southampton Airport is an international airport.",
+        "For arrivals and departures, follow this link: https://www.southampton-airport-guide.co.uk/.",
+        "Southampton is a tiny airport that handles some big airlines. Essentially it is all one room once you are through security. You won't get lost :-)"]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["Is transport in Southampton good?", "What is public transport like?", "How to get around Southampton?"],
+      "responses": [
+        "According to the local council: 'Southampton has an excellent range of public transport options. You can travel around the city while leaving the car at home.'",
+        "The public transport system in the city includes buses, trains, ferries, and taxis.",
+        "You will find it easy to move around the city using public transport! Consider buying a Solent Go card - all details here --> https://solentgo.co.uk/"]
+    },
+    {
+      "tag": "bin",
+      "patterns": ["What is my bin day?", "Bin collection in Southampton.", "What are bins and recycling rules?"],
+      "responses":[
+        "Bin calendar ---> https://www.southampton.gov.uk/bins-recycling/bins/collections/",
+        "Bins and Recycling info ---> https://www.southampton.gov.uk/bins-recycling/"]
+    },
+    {
+      "tag": "parking",
+      "patterns": ["Is there free parking in Southampton?", "Southampton's parking", "Where can I park in Southampton?"],
+      "responses": [
+        "You will find a range of council-owned and managed car parks and on-street parking places. Don't count on free parking.",
+        "A permit is required to park in residents' permit zones during restricted hours. Contact the council office if you are entitled to obtain a parking permit.",
+        "Parking in Southampton can be a real struggle. The city is growing fast with a number of cars driving through the city. Whenever you can, please leave your car at home and use local transport."]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["Tell me a fact about Southampton.", "Can you tell me a fun fact?"],
+      "responses": [
+        "Cruise capital of Europe: Southampton is known as the cruise capital of Europe and is the home port to some of the world's largest cruise ships.",
+        "There are eight other ‘Southamptons’ in the world! Amazingly, six of those are located in North America - with ‘Southamptons’ in Maryland, Massachusetts, New York, Pennsylvania, Utah, and Virginia. You’ll also find two ‘Southamptons’ in Canada, in New Brunswick and Ontario.",
+        "Southampton has had its fair share of aviation history. The Spitfire, a huge advancement in the books of aero-travel, first took off from Southampton in 1936. To discover more about the huge aviation advancements of the 1900s, you can visit the Solent Sky museum in Southampton."]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't quite catch that. Can you rephrase?",
+        "Could you provide more details about your question?",
+        "I'm here to help with city-related queries. What can I assist you with?"]
+    }
+  ]
+}
+    
+  
